@@ -19,8 +19,8 @@ Note that all Pro-2 Series printers use 1.75 mm filaments.
 + Select `Import Model` and select your .STL file. 
   - To export .STL files from SOLIDWORKS: https://www.cati.com/blog/2016/06/exporting-stl-files-from-solidworks-for-3d-printing/
 + If successfully imported, your model should be seen in the ideaMaker workspace. Select which extruder you plan to print with. Default is left extruder. 
-+ From here, you can rotate or translate your model as needed.
-  - It may be beneficial to rotate your model to decrease printing time and required supports. In general, you want the highest amount of surface area to be closest to the build plate.
++ From here, you can rotate or translate your model as needed using the tools located on the top toolbar.
+  - It may be beneficial to rotate your model to decrease printing time and required supports.
 + If you are importing multiple models, ensure that they are not touching.
   - When spacing models, it is reccomended to provide at least 10 mm of space in between each model.
   - Verify that all models are placed correctly on the build plate. This can be done by setting the *Z* position of each model to 0.
