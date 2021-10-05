@@ -9,8 +9,10 @@ This article goes over the Raise3D Pro-2 Plus 3D printer in the RPL. Since the s
 + Install ideaMaker to your local machine: https://www.raise3d.com/downloads/
 + When launching ideaMaker for the first time, you will need to select your printer model and filament diameters for this device.
   - Printer Type: Raise3D Pro2 Plus
-  - Left Extruder Filament: PLA 1.75 mm
-  - Right Extruder Filament: PLA 1.75 mm
+  - Extruder Count: 2
+  - Use Heated Bed: Leave Checked
+  - Left Extruder Filament: \[Raise3D\] PLA 1.75 mm
+  - Right Extruder Filament: \[Raise3D\] PLA 1.75 mm
 
 Note that all Pro-2 Series printers use 1.75 mm filaments.
 
