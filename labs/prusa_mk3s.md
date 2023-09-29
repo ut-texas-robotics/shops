@@ -48,3 +48,9 @@ to save the g-code for the print. This is the file that you will transfer to the
 
 ### III. Starting a Print
 
+Once you have generated the gcode for your print, you can now upload it to one of the four printers in the DigiFab lab. To do this, you will need to upload the file to the SD card on the printer. If you do not have an SD card reader on your computer, there should be a USB adapter next to the printers that you are welcome to use to transfer your file.
+
+With the gcode file saved, insert the SD card into the left side of the printer. The printer should begin sorting files, and will then open a list of files on the card. The list is organized by most recent, so your file should be at the top of the list. If the printer is already loaded with filament, you can select your print file with the knob and the printer will begin printing. If you have not yet loaded your filament into the printer, proceed to Section IV before printing.
+
+### IV. Loading / Unloading The Printer
+
