@@ -54,3 +54,10 @@ With the gcode file saved, insert the SD card into the left side of the printer.
 
 ### IV. Loading / Unloading The Printer
 
+Loading filament on the Prusa printers is relatively simple. Any time you plan to print, verify that the filament that you intend to use is the same type that you selected in the slicer (whether it's PLA, PETG, etc) as different filaments will have different temperature requirements. To load your filament, select "Autoload Filament" and select the type of filament you plan to use. Once the extruder heats up to the appropriate temperature, it will beep and display a prompt requesting the user to insert filament, at which point you may do so. Once the filament comes into contact with the drive gears, it will begin extruding the filament, at which point the user should not add any additional pressure to the filament. 
+
+After 10-15 seconds, the printer will beep and display a prompt asking if the extruder is extruding the correct color. If you want to run more filament through the extruder to ensure that no old material remains, select "No" and it will extrude for a further 5-10 seconds (recommended to do this 1-2 times, especially if changing color or type of filament). Once satisfied, you may select "Yes' and the printer loading operation will be complete.
+
+To unload, select "Unload" from the display menu. If prompted, select the currently loaded material and the printer will begin heating up. Once at the appropriate temperature, the user will be prompted to press the knob to unload. Upon doing this, the printer will unload the filament and beep when complete, at which point the filament can be removed from the extruder head. Make sure to cut the melted end of the filament to ease loading next time the spool is used and prevent jamming.
+
+(Note: Some photos of the Prusa's should be added where relevant to add clarity)
