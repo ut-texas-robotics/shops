@@ -1,12 +1,12 @@
 See articles relating to RPL equipment below:
 
 
-[Prusa Printers](./prusa_mk3s.md)
+[Prusa Printers](./prusa_mk3s.md)   ** Up to Date **
 
-[Raise 3D Printers](./Raise3D_StartupGuide.md)
+[Raise 3D Printers](./Raise3D_StartupGuide.md)  ** Up to Date **
 
-[FormLabs 3D Printers](./FormLabs.md)
+[FormLabs 3D Printers](./FormLabs.md) ** Incomplete **
 
-[Markforged MarkTwo](./Markforged.md)
+[Markforged MarkTwo](./Markforged.md) ** Incomplete **
 
-[Epilog Laser](./laser.md) 
+[Epilog Laser](./laser.md) ** Incomplete **
