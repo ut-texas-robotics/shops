@@ -1,30 +1,32 @@
-# Raise3D Pro-2 Plus
+# Raise3D Pro2Plus and Pro3
 
-This article goes over the Raise3D Pro-2 Plus 3D printer in the RPL. Since the station does not yet have a dedicated workstation, you must use your own laptop to begin a print.
+This article goes over the Raise3D Pro2Plus and Pro3 3D printers in the DigiFab lab (AHG 1.106). The DigiFab lab has available desktops if you wish to use the software on those instead of downloading it on your personal computer. Feel free to skip to step II if you do not need to install IdeaMaker.
 
 ## Getting Started
 
 ### I. ideaMaker installation
 
+IdeaMaker is the slicer software users will use to import, set up, and then export prints for the Raise3D printers. If you already have ideaMaker installed or are using a DigiFab workstation computer, skip to step II.
+
 + Install ideaMaker to your local machine: https://www.raise3d.com/downloads/
 + When launching ideaMaker for the first time, you will need to select your printer model and filament diameters for this device.
-  - Printer Type: Raise3D Pro2 Plus
+  - Printer Type: Raise3D Pro2 Plus or Raise3D Pro3 *(Can adjust later if using the other machine)*
   - Extruder Count: 2
   - Use Heated Bed: Leave Checked
   - Left Extruder Filament: \[Raise3D\] PLA 1.75 mm
   - Right Extruder Filament: \[Raise3D\] PLA 1.75 mm
 
-Note that all Pro-2 Series printers use 1.75 mm filaments.
+*Note that all of our printers use 1.75 mm filaments.*
 
 ### II. Importing a Model
 
-+ Select `Import Model` and select your .STL file. 
++ Select `Import Model` and select your .STL file. Alternately, drag and drop your .STL file onto the screen displaying the print bed.
   - To export .STL files from SOLIDWORKS: https://www.cati.com/blog/2016/06/exporting-stl-files-from-solidworks-for-3d-printing/
 + If successfully imported, your model should be seen in the ideaMaker workspace. Select which extruder you plan to print with. Default is left extruder. 
 + From here, you can rotate or translate your model as needed using the tools located on the top toolbar.
   - It may be beneficial to rotate your model to decrease printing time and required supports.
 + If you are importing multiple models, ensure that they are not touching.
-  - When spacing models, it is reccomended to provide at least 10 mm of space in between each model.
+  - When spacing models, it is reccomended to provide at least 10 mm of space (~1 grid square) in between each model.
   - Verify that all models are placed correctly on the build plate. This can be done by setting the *Z* position of each model to 0.
 
 ### III. Slicing a Model
@@ -32,6 +34,9 @@ Note that all Pro-2 Series printers use 1.75 mm filaments.
 Once your model is setup and ready to print, select `Start Slicing`
 
 From here, you will be presented a variety of standard slicing templates. Note that the higher the quality of print, the longer the print will take. Additionally, verify the type of filament is correct for each extruder. Proceed with the following instructions to setup print for chosen template.
+
+**Important:** Select either `Raise3D Pro2 Plus` or `Raise3D Pro3` at the top depending on which machine you are using. The settings for each printer vary, so it is essential
+to select the correct printer.
 
 ![PrintGuide1](https://user-images.githubusercontent.com/87148770/134209686-c060927a-1234-4537-8033-d27104fe2304.jpg)
 ![PrintGuide2](https://user-images.githubusercontent.com/87148770/134209697-2ea44c09-4b9a-4d44-a641-cf6eb73d6fc4.jpg)
@@ -46,7 +51,7 @@ Once you have validated your print settings, select `Slice`
 
 ### IV. Exporting a Model
 
-Upon slice completion, an estimated time, cost, and filament usage will be provided.
+Upon slice completion, an estimated time, cost, and filament usage will be provided. At this time, use the time estimate to reserve a spot on the google calendar. If you do not have access to the shared "AHG DigiFab 3D Printers" calendar, message the DigiFab support team to request access.
 + Click `Preview`
   - From here, you can scrub through the print layers to validate your print.
 + Take note of the estimated filament usage. Each spool on the Pro2-Plus can hold 1kg of filament when new. To prevent possible print failure, ensure that there is enough filament left on the spool to complete your print.
@@ -55,7 +60,7 @@ Upon slice completion, an estimated time, cost, and filament usage will be provi
 
 ### V. Printing your Model
 
-With the .gcode and .data files exported to your USB storage device, insert the USB device into the USB slot on the Pro2-Plus located on the side of the touchscreen.
+With the .gcode and .data files exported to your USB storage device, insert the USB device into the USB slot on the printer located at the side of the touchscreen.
 + Select `Print`
 + Select `USB Storage`
 + Select your model
@@ -67,7 +72,7 @@ With the .gcode and .data files exported to your USB storage device, insert the 
 Once a print has begun, the print bed and corresponding extruders will begin to heat up. *Verify that only the desired extruder is being heated. Otherwise, review print settings.*
 After both the print bed and extruder(s) are at temperature, the print will begin. 
 
-*IMPORTANT: Watch printer until at least the first print layer has gone down before leaving the Digifab lab*
+*IMPORTANT: Watch printer until at least the first print layer has gone down before leaving the DigiFab lab*
 
 ### VI. Removing a completed print
 
@@ -90,7 +95,7 @@ When setting up your print, you may want to use a platform to ensure a clean fir
 
 ### Dual Extruder Printing
 
-The Raise3D Pro2-Plus is capable of dual extruder printing. To setup a series of models for dual-extruder printing, follow the instructions below:
+The Raise3D machines are capable of dual extruder printing. To setup a series of models for dual-extruder printing, follow the instructions below:
 
 ![DualExtrude1](https://user-images.githubusercontent.com/87148770/134209544-8c6ddaba-d701-4a97-9d0d-b311a53b9598.jpg)
 ![DualExtrude2](https://user-images.githubusercontent.com/87148770/134209559-34f16259-77ff-427b-beee-27ebd34b71ca.jpg)
@@ -105,11 +110,11 @@ Additionally, if you wish to print your infill, support, or platform in a differ
 
 ### Changing Printer Filament
 
-Before changing the filament on the printer, ensure that the Pro2-Plus is not actively printing and there are no models on the print bed. Confirm which extruder you want to replace the filament of before you begin.
+Before changing the filament on the printer, ensure that the printer is not actively printing and there are no models on the print bed. Confirm which extruder you want to replace the filament of before you begin.
 
 #### Unloading the Filament
 
-+ Using the touchscreen on the Pro2-Plus, press `Utilities`.
++ Using the touchscreen on the printer, press `Utilities`.
 + Verify which extruder you want to replace the filament of, and press `Unload` to begin unloading the filament currently in the extruder.
   - The extruder will begin to head up and will initially extrude some filament before unloading it, this is expected.
 + Once the filament has been unloaded, you should be able to remove it from the filament feeder. 
