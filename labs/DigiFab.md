@@ -5,7 +5,7 @@ See articles relating to RPL equipment below:
 
 [Raise 3D Printers](./Raise3D_StartupGuide.md)
 
-[FormLabs 3D Printers](./FormLabs)
+[FormLabs 3D Printers](./FormLabs.md)
 
 [Markforged MarkTwo](./Markforged.md)
 
