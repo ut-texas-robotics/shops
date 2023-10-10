@@ -1,4 +1,4 @@
-See articles relating to RPL equipment below:
+See articles relating to DigiFab equipment below:
 
 
 [Prusa Printers](./prusa_mk3s.md)   ** Up to Date **
