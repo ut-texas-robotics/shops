@@ -1,8 +1,12 @@
 See articles relating to RPL equipment below:
 
-[Epilog Laser](./laser.md) 
 
 [Prusa Printers](./prusa_mk3s.md)
 
 [Raise 3D Printers](./Raise3D_StartupGuide.md)
 
+[FormLabs 3D Printers](./FormLabs)
+
+[Markforged MarkTwo](./Markforged.md)
+
+[Epilog Laser](./laser.md) 
