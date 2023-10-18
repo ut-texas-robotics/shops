@@ -1,6 +1,8 @@
-#The Epilog Fusion Pro Laser
+# Epilog FusionPro Laser Cutter
 
-This article goes over the Epilog Laser in the DigiFab lab. The laser has a dedicated workstation computer next to it that will be used to run cutting operations. If you have been granted access to the workstation, you will be able to see the login information at: [stache.utexas.edu](https://stache.utexas.edu/)
+![](../img/laser/EpilogLaser.JPG)
+
+This article goes over the Epilog FusionPro Laser in the DigiFab lab. The laser has a dedicated workstation computer next to it that will be used to run cutting operations. If you have been granted access to the workstation, you will be able to see the login information at: [stache.utexas.edu](https://stache.utexas.edu/)
 
 Prior to using the Epilog Laser, please familiarize yourself with the locations of the:
 
