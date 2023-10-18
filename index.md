@@ -5,3 +5,7 @@ This website is in active development. You can find individual articles below.
 
 
 [DigiFab Lab](/labs/DigiFab.md)
+
+[Machine Shop](/labs/MachineShop.md)
+
+[Electronics Shop](/labs/Electronics.md)
