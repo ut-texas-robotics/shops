@@ -2,6 +2,8 @@
 
 This article goes over the Prusa Mk3S+ machines in the DigiFab lab (AHG 1.106). 
 
+![](../img/prusa/Prusa.JPG)
+
 ## Getting Started
 
 ### I. PrusaSlicer installation
