@@ -1,5 +1,5 @@
 See articles relating to DigiFab equipment below:
-![](../img/DigiFabMain/..)
+![](../img/DigiFabMain/DigiFab.JPG)
 
 [Prusa Printers](./prusa_mk3s.md)   ** Up to Date **
 
