@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<!--
+	AHG Shops Website
+-->
+<html>
+
+<head>
+	<title>DigiFab - Prusa Printers</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>AHG Shops</strong></a>
+				</header>
+
+				<!-- Content -->
+				<section>
+					<header class="main">
+						<h1>Prusa MK3S+ 3D Printers</h1>
+					</header>
+					<span class="image main"><img src="../images/Prusa.JPG" alt="" /></span>
+					<h2>I. PrusaSlicer Installation</h2>
+
+					<p>We have two desktop computers in the DigiFab lab that are available for user usage. These
+						desktops have the required software installed on them, but many users prefer to install
+						the software on their own computers for ease of access. If you do not wish to go through
+						the installation process, proceed to Step II.</p>
+					<ul>
+						<li>Install PrusaSlicer to your local machine (Supports Windows/Mac/Linux): <a
+								href="https://www.prusa3d.com/page/prusaslicer_424/"> PrusaSlicer</a></li>
+						<li>Open PrusaSlicer</li>
+						<li>In the top right of the screen, under select the option "Original Prusa i3 MK3S &
+							MK3S+" to configure your slicer for the printers in the lab.</li>
+					</ul>
+					<span class="image fit"><img src="../images/prusa/PrusaConfig.PNG"
+							style="width:100%;max-width:300px" alt="" />
+
+
+						<hr class="major" /> <!-- Visual Section end line -->
+
+						<h2>II. PrusaSlicer Walkthrough</h2>
+
+						<p>To import your model to PrusaSlicer, either drag-and-drop your file into PrusaSlicer, or
+							select Add [Ctl+I] to select your file. File must be a .stl filetype.</p>
+						<p>If successfully imported, you will see your model on the digital printbed. From here, you
+							may wish to use the layout options on the right side of the screen to move/rotate your
+							model. You may also import more than one model at a time to print.</p>
+						<p>Once your model(s) have been located and oriented, adjust your print settings and verify
+							that they are appropriate for your current print. Verify that the filament settings
+							matches the type of filament that you intend to print with. If you want, adjust the
+							layer height (Print Settings) and infill. Standard layer height is between 0.15-0.2mm
+							with 15% infill.</p>
+						<span class="image fit"><img src="../images/prusa/modelOnBed.PNG"
+								style="width:100%;max-width:400px" alt="" />
+
+							<p>
+							<p>If you want more in-depth settings, you can access the full print settings by selecting
+								"Print Settings" at the top.</p>
+							<span class="image fit"><img src="../images/prusa/PrintSettings.PNG"
+									style="width:100%;max-width:350px" alt="" />
+								<p>When you are ready to print, select "Slice Now" in the bottom right of the screen.
+									This
+									will slice your model and prepare the g-code for printing. </p>
+								<span class="image fit"><img src="../images/prusa/SliceNow.PNG"
+										style="width:100%;max-width:400px" alt="" /></span>
+								<p>You can scrub through print layers using the orange slider to the side and bottom of
+									the
+									view screen. If everything looks correct, select "Export g-code" to save the g-code
+									for
+									the print. This is the file that you will transfer to the printer itself.</p>
+								</p>
+
+
+								<hr class="major" /> <!-- Visual Section end line -->
+
+								<h2>III. Loading and Unloading The Printer</h2>
+								<p>Loading filament on the Prusa printers is relatively simple. Any time you plan to
+									print,
+									verify
+									that the filament that you intend to use is the same type that you selected in the
+									slicer
+									(whether it's PLA, PETG, etc) as different filaments will have different temperature
+									requirements. To load your filament, select "Autoload Filament" and select the type
+									of
+									filament
+									you plan to use. Once the extruder heats up to the appropriate temperature, it will
+									beep
+									and
+									display a prompt requesting the user to insert filament, at which point you may do
+									so.
+									Once
+									the
+									filament comes into contact with the drive gears, it will begin extruding the
+									filament,
+									at
+									which
+									point the user should not add any additional pressure to the filament.</p>
+								<img src="../images/prusa/loadfilament.jpg" alt="" style="width:100%;max-width:300px" />
+								<img src="../images/prusa/materialtemp.jpg" alt="" style="width:100%;max-width:300px" />
+								<p>After 10-15 seconds, the printer will beep and display a prompt asking if the
+									extruder is
+									extruding the correct color. If you want to run more filament through the extruder
+									to
+									ensure
+									that no old material remains, select "No" and it will extrude for a further 5-10
+									seconds
+									(recommended to do this 1-2 times, especially if changing color or type of
+									filament).
+									Once
+									satisfied, you may select "Yes' and the printer loading operation will be complete.
+								</p>
+								<img src="../images/prusa/loaded.jpg" alt="Loaded" style="width:100%;max-width:300px" />
+								<p>To unload, select "Unload" from the display menu. If prompted, select the currently
+									loaded
+									material and the printer will begin heating up. Once at the appropriate temperature,
+									the
+									user
+									will be prompted to press the knob to unload. Upon doing this, the printer will
+									unload
+									the
+									filament and beep when complete, at which point the filament can be removed from the
+									extruder
+									head. Make sure to cut the melted end of the filament to ease loading next time the
+									spool is
+									used and prevent jamming.</p>
+
+								<hr class="major" /> <!-- Visual Section end line -->
+
+								<h2>IV. Starting A Print</h2>
+								<p>Once you have generated the gcode for your print, you can now upload it to one of the
+									four
+									printers in the DigiFab lab. To do this, you will need to upload the file to the SD
+									card
+									on
+									the
+									printer. If you do not have an SD card reader on your computer, there should be a
+									USB
+									adapter
+									next to the printers that you are welcome to use to transfer your file.</p>
+								<img src="../images/prusa/sdcard.jpg" alt="" style="width:100%;max-width:300px" />
+								<img src="../images/prusa/startprint.jpg" alt="" style="width:100%;max-width:300px" />
+								<p>With the gcode file saved, insert the SD card into the left side of the printer. The
+									printer
+									should begin sorting files, and will then open a list of files on the card. </p>
+								<p>(Note:
+									when naming files, use the following naming convention:
+									"name_date_additionalinformation.gcode")</p>
+								<p>
+									The list
+									is
+									organized by most recent, so your file should be at the top of the list. If the
+									printer
+									is
+									already loaded with filament, you can select your print file with the knob and the
+									printer
+									will
+									begin printing.
+								</p>
+								<p> Make sure the printer is properly loaded before starting a print. If you need help
+									loading the machine, see "Step III. Loading and Unloading The Printer"</p>
+
+								<hr class="major" /> <!-- Visual Section end line -->
+
+								<h2>V. Additional Information</h2>
+								<p>Note that for the Prusa printers, users are allowed to use a wider range of filament
+									choices than on the Raise3D machines. While users are still allowed to use Raise3D
+									branded filaments, they may also choose to use filaments from other brands. Another
+									reccomended brand is Prusa's prusament PLA. This material comes in a wide range of
+									colors and prints excellently on the Prusa printers.</p>
+								<p>The Prusa printers also do not need to be reserved on the Google calendar like the
+									larger 3D printers in the lab. If any of the printers are not currently printing,
+									users are welcome to start their print on said machine. </p>
+								<p>As with all printers, make sure to only use materials that you or your group have
+									provided. If you are unsure, either check with your group or do not use and
+									unlabelled material. Users are welcome to store their materials in the lab provided
+									that they dispose of any finished spools and that they properly label all filaments
+									that are stored in the shared space. Be respectful of other users in the space and
+									please work to maintain a clean and safe environment for all users.</p>
+								<p>If you experience any issues with the Prusa printers, reach out to the lab manager or
+									write a problem note on the issue board in the lab so that the machine can be
+									repaired. </p>
+								<p>Feel free to reach out to
+									the lab manager if you have any further questions that were not answered on this
+									page. </p>
+								<p>Good luck and happy printing!</p>
+
+								<hr class="major" /> <!-- Visual Section end line -->
+
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Sidebar (DigiFab)-->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="../index.html">Homepage</a></li>
+						<li>
+							<span class="opener">DigiFab Shop (AHG 1.106)</span>
+							<ul>
+								<li><a href="prusa.html">Prusa Printers</a></li>
+								<li><a href="raise3d.html">Raise3D Printers</a></li>
+								<li><a href="formlabs.html">FormLabs SLA Printers</a></li>
+								<li><a href="epilog.html">Epilog Fusion Pro Laser Cutter</a></li>
+								<li><a href="marktwo.html">Markforged MarkTwo Carbon Fiber Printer</a></li>
+								<li><a href="additionalResources.html">Additional Resources</a></li>
+							</ul>
+						</li>
+						<li><a href="../electronicsShop.html">Electronics Shop (AHG 1.218)</a></li>
+						<li><a href="../machineShop.html">Machine Shop (AHG 1.214)</a></li>
+						<li><a href="../woodShop.html">Wood Shop (AHG 1.102)</a></li>
+						<li><a href="../shopsAddResources.html">Additional Resources</a></li>
+					</ul>
+				</nav>
+
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright"> AHG Shops website was built using template from: <a
+							href="https://html5up.net">HTML5 UP</a></p>
+				</footer>
+
+			</div>
+		</div>
+		<!-- Sidebar End -->
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
