@@ -3,88 +3,187 @@
 	AHG Shops Website
 -->
 <html>
-	<head>
-		<title>DigiFab - Raise3D Printers</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>DigiFab - Raise3D Printers</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+</head>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+<body class="is-preload">
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>AHG Shops</strong></a>
-								</header>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-							<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>Raise3D 3D Printers</h1>
-									</header>
-									<span class="image main"><img src="../images/Raise3D.JPG" alt="" /></span>
-									<p>*Desc*</p>
-                                    <hr class="major" />   <!-- Visual Section end line -->
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
 
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>AHG Shops</strong></a>
+				</header>
 
-								</section>
+				<!-- Content -->
+				<section>
+					<header class="main">
+						<h1>Raise3D 3D Printers</h1>
+					</header>
+					<span class="image main"><img src="../images/Raise3D.JPG" alt="" /></span>
+					<p>The largest printers in the DigiFab shop are the Raise3D printers. The Raise3D Pro2Plus and Pro3
+						are high quality FDM 3D printers with removable beds and dual extrusion capabilities. </p>
+					<hr class="major" /> <!-- Visual Section end line -->
 
-						</div>
-					</div>
+					<h2>ideaMaker Slicer Walkthrough</h2>
+					<h3>ideaMaker Installation</h3>
+					<p>IdeaMaker is the slicer software users will use to import, set up, and then export prints for the
+						Raise3D printers. If you already have ideaMaker installed or are using a DigiFab workstation
+						computer, skip to step II - Importing a Model.</p>
+					<p>Install ideaMaker to your local machine: <a href="https://www.raise3d.eu/download/">
+							ideaMaker</a></p>
+					<p>ideaMaker is supported on Windows, Linux, and Mac.</p>
+					<p>Once you have installed ideaMaker, go ahead and open up the software and proceed to Importing a
+						Model. When launching for the first time, you will need to select your printer model and
+						settings for this device:</p>
+					<ul>
+						<li>Printer Type: Raise3D Pro2 Plus / Raise3D Pro3 *(Can adjust later depending on which machine
+							you are printing with)*</li>
+						<li>Extruder Count: 2</li>
+						<li>Use Headed Bed: *Leave Checked*</li>
+						<li>Left Extruder Filament: [Raise3D] PLA 1.75 mm</li>
+						<li>Right Extruder Filament: [Raise3D] PLA 1.75 mm</li>
+					</ul>
+					<p>Note that all of our printers in the DigiFab lab use 1.75mm filaments.</p>
+					<hr class="major" /> <!-- Visual Section end line -->
 
-				<!-- Sidebar (DigiFab)-->
-				<div id="sidebar">
-					<div class="inner">
+					<h3>Importing a Model</h3>
+					<p>To import your model, eithe select 'Import Model' and select your .STL file, or drag and drop
+						your .STL file directly onto the ideaMaker screen. If successfully imported, your model should
+						be seen in the ideaMaker workspace. The default extruder is the left extruder, but if you wish
+						to change this, you can change either in the View tab or by right-clicking with the model
+						selected.</p>
+					<p>From here, you can rotate or translate your model as needed using the tools located on the top
+						toolbar. It may be beneficial to rotate your model to decrease printing time and required
+						supports.</p>
+					<p>If you are importing multiple models, ensure that they are not touching.
+						- When spacing models, it is reccomended to provide at least 10 mm of space (~1 grid square) in
+						between each model.</p>
+					<p>Verify that all models are placed correctly on the build plate. This can be done by setting the
+						*Z* position of each model to 0.</p>
+					<hr class="major" /> <!-- Visual Section end line -->
 
-						<!-- Menu -->
-							<nav id="menu">
-								<header class="major">
-									<h2>Menu</h2>
-								</header>
-								<ul>
-									<li><a href="../index.html">Homepage</a></li>
-									<li>
-										<span class="opener">DigiFab Shop (AHG 1.106)</span>
-										<ul>
-											<li><a href="prusa.html">Prusa Printers</a></li>
-											<li><a href="raise3d.html">Raise3D Printers</a></li>
-											<li><a href="formlabs.html">FormLabs SLA Printers</a></li>
-											<li><a href="epilog.html">Epilog Fusion Pro Laser Cutter</a></li>
-											<li><a href="marktwo.html">Markforged MarkTwo Carbon Fiber Printer</a></li>
-											<li><a href="additionalResources.html">Additional Resources</a></li>
-										</ul>
-									</li>
-									<li><a href="../electronicsShop.html">Electronics Shop (AHG 1.218)</a></li>
-									<li><a href="../machineShop.html">Machine Shop (AHG 1.214)</a></li>
-									<li><a href="../woodShop.html">Wood Shop (AHG 1.102)</a></li>
-									<li><a href="../shopsAddResources.html">Additional Resources</a></li>
-								</ul>
-							</nav>
+					<h3>Slicing a Model</h3>
+					<p>Once your model is setup and ready to print, select `Start Slicing`</p>
+					<p>From here, you will be presented a variety of standard slicing templates. Note that the higher
+						the quality of print, the longer the print will take. Additionally, verify the type of filament
+						is correct for each extruder. Proceed with the following instructions to setup print for chosen
+						template.</p>
+					<p>**Important:** Select either `Raise3D Pro2 Plus` or `Raise3D Pro3` at the top depending on which
+						machine you are using. The settings for each printer vary, so it is essential
+						to select the correct printer.</p>
+					<p>Once you have validated your print settings, select `Slice`</p>
+					<hr class="major" /> <!-- Visual Section end line -->
 
+					<h3>Exporting a Model</h3>
+					<p>Upon slice completion, an estimated time, cost, and filament usage will be provided. At this
+						time, use the time estimate to reserve a spot on the google calendar. If you do not have access
+						to the shared "AHG DigiFab 3D Printers" calendar, message the DigiFab support team to request
+						access.</p>
+					<p>Click 'Preview'</p>
+					<p>From here, you can scrub through the print layers to validate your print. Take note of the
+						estimated filament usage. Each spool on the Pro2-Plus can hold 1kg of filament when new. To
+						prevent possible print failure, ensure that there is enough filament left on the spool to
+						complete your print.</p>
+					<p>Once ready to export, select 'Export to Local Disk' and save to external USB storage device.</p>
+					<p>When naming a print, use the following naming convention:</p>
+					<h4>YourName_Date_ModelName.gcode</h4>
+					<p>By including your name in the print file, other users will be able to more easily reach out to
+						you in order in the case that your print fails or runs into some other issue.</p>
+					<hr class="major" /> <!-- Visual Section end line -->
 
-						<!-- Footer -->
-							<footer id="footer">
-								<p class="copyright"> AHG Shops website was built using template from: <a href="https://html5up.net">HTML5 UP</a></p>
-							</footer>
+					<h2>Starting a Print</h2>
+					<h3>Loading and Unloading Filament</h3>
+					<p></p>
+					<hr class="major" /> <!-- Visual Section end line -->
+					<h3>Uploading your gcode File</h3>
+					<p></p>
+					<hr class="major" /> <!-- Visual Section end line -->
+					<h3>Start Your Print</h3>
+					<p>Before running a print, make sure you have the printer reserved on the google calendar. Create an
+						event named "YourName - NameOfPrinter" and make sure it is on the DigiFab 3D Printers shared
+						calendar (The event should turn purple if on the correct calendar).</p>
+					<p>If a previous users print is on the bed, feel free to remove it and place it to the side for them
+						to come pick up.</p>
+					<p>With your gcode uploaded to the printer, use the touchscreen to navigate to Print. From here you
+						should be able to see your gcode file and select it. You will see your model as well as some
+						additional information about the print. If you are ready to print, select "Print". At this
+						point, the printer will begin printing the model. Note that if using the Pro3, a short bed level
+						procedure will be run before the print starts.</p>
+					<hr class="major" /> <!-- Visual Section end line -->
+					<h3>Removing a Finished Print</h3>
+					<p>When a print is finished, it will need to be removed from the print bed. Unscrew the two bed
+						finger-screws and remove the print bed. On the Pro3, the bed is flexible allowing the part to be
+						easily removed without additional tools. On the Pro2Plus, a scraper may be needed to remove the
+						part from the bed. When using a scraper, be careful not to damage the bed underneath. Once your
+						part is removed, place the bed back and lightly tighten the screws to keep it from moving back
+						and forth during a print.</p>
+					<hr class="major" /> <!-- Visual Section end line -->
 
-					</div>
-				</div>
-			<!-- Sidebar End -->
+				</section>
 
 			</div>
+		</div>
 
-		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
+		<!-- Sidebar (DigiFab)-->
+		<div id="sidebar">
+			<div class="inner">
 
-	</body>
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="../index.html">Homepage</a></li>
+						<li>
+							<span class="opener">DigiFab Shop (AHG 1.106)</span>
+							<ul>
+								<li><a href="prusa.html">Prusa Printers</a></li>
+								<li><a href="raise3d.html">Raise3D Printers</a></li>
+								<li><a href="formlabs.html">FormLabs SLA Printers</a></li>
+								<li><a href="epilog.html">Epilog Fusion Pro Laser Cutter</a></li>
+								<li><a href="marktwo.html">Markforged MarkTwo Carbon Fiber Printer</a></li>
+								<li><a href="additionalResources.html">Additional Resources</a></li>
+							</ul>
+						</li>
+						<li><a href="../electronicsShop.html">Electronics Shop (AHG 1.218)</a></li>
+						<li><a href="../machineShop.html">Machine Shop (AHG 1.214)</a></li>
+						<li><a href="../woodShop.html">Wood Shop (AHG 1.102)</a></li>
+						<li><a href="../shopsAddResources.html">Additional Resources</a></li>
+					</ul>
+				</nav>
+
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright"> AHG Shops website was built using template from: <a
+							href="https://html5up.net">HTML5 UP</a></p>
+				</footer>
+
+			</div>
+		</div>
+		<!-- Sidebar End -->
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
 </html>
