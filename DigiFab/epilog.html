@@ -131,52 +131,117 @@
 						to design a simple cut/engrave file. Download Inkscape here:</p>
 					<p><a href="https://inkscape.org/release/inkscape-1.3/">Inkscape (Windows / Linux / Mac)</a></p>
 					<h3>Creating a Vecor Cut Part</h3>
-					<p></p>
+					<p>In Inscape, create a shape using the tools on the right. For the laser to iterpret a part as a
+						vector cut, the part will need to have a stroke line (outline). To do this, right click on the
+						part and select "Fill and Stroke." You should see a menu open on the right side of the window.
+					</p>
+					<p>A "Filled" image will be interpreted by the software as an engrave, so if you only wish to
+						perform a cut, turn off Fill. To perform a cut, turn on the Stroke to display the outline of
+						your shape. Note that the laser will only cut when the stroke thickness is 0.003 inches wide or
+						less, so make sure to adjust this. If the line is thicker than 0.003 inches, then it will be
+						engraved instead of cut. (On other softwares, you can simply use the "Hairline" feature to get
+						an appropriately thin line)</p>
 					<h3>Creating an Engrave Part</h3>
-					<p></p>
+					<p>As mentioned earlier, if you wish to engrave, simply input the image that you wish to be
+						engraved. Note that the laser only engraves in greyscale, so any color will not show up as
+						actual color on the final image.</p>
 					<h3>Optional Color Coding</h3>
-					<p></p>
+					<p>The Epilog software also allows the user to split operations up by color. For example, if you
+						wish to cut one shape before another, or you wish to engrave a shape with different settings
+						than another, you can set these objects to have different colors. Once you open the dashboard
+						(in the next step), simply select "Split By Color" to seperate your operations by color.</p>
 					<h3>Importing a File from PDF</h3>
-					<p></p>
-					<hr class="major" /> <!-- Visual Section end line -->
-
-					<h2>V. Running a Job</h2>
-					<p>Once you have designed your part, open the .svg file on the laser workstation. Select File <
-							Print < Epilog Fusion Pro to launch the Epilog Dashboard. You should see your part file
-							appear on the screen, and if the laser is on, you will see the live video feed from the
-							cameras. </p>
-							<p>If the laser is not on yet, start by turning the exhaust up to 10 and then turn
-								the key on the laser control panel to turn the laser on. The Epilog laser will run a
-								short configuration process, after which the digital screen will display "Idle" in the
-								botton left corner. At this point, the laser is ready to begin operating.</p>
-							<p>Looking back at the Epilog Dashboard, you will see your operation(s) on the right side of
-								the page. These operations will be split into Vector and Engrave if applicable. If what
-								appears in these sections do not match what you anticipated, double check your .svg
-								file.</p>
-							<p>*Information about settings for vector and engrave*</p>
+					<p>If you ahve a PDF file that you wish to import, first make sure that it is a high resolution
+						image. If it is a Solidworks drawing file, make sure that all of your draft and mesurement
+						settings are set to "Max" and "High Quality" to allow it to import properly.</p>
+					<p>Then simply import your PDF into Inkscape, at which point it will automatically be converted to
+						an SVG. If done properly, you should be able to select the individual elements of the drawing
+						and move, scale, and delete as you see fit, leaving only the part that you wish to actually cut.
+						Again, make sure that the stroke thickness is <= 0.003 inches.</p>
 							<hr class="major" /> <!-- Visual Section end line -->
 
-							<h2>VI. Additional Information</h2>
-							<p>Note that the laser does not currently have a reservation system. The laser currently
-								does not
-								get used to the point that this has been an issue, but if finding an available time to
-								laser cut
-								becomes an issue, contact a shop manager to help resolve this.</p>
-							<p>In addition to the standard grid bed that is on the laser, users may prefer to use the
-								engraving
-								bed, which is mostly solid and very flat. To change beds, users must remove the current
-								bed and
-								place the new bed on the table, making sure that it sits properly on the laser. When
-								done with a
-								bed, please replace the standard grid bed for other users. Do not use the engraving bed
-								for
-								vector cutting operations as it can damage the bed and potentially release unwanted
-								chemicals.
-							</p>
-							<p>Feel free to reach out to a shop manager if you have any further questions about the
-								Epilog
-								Fusion Pro laser cutter.</p>
-							<hr class="major" /> <!-- Visual Section end line -->
+							<h2>V. Running a Job</h2>
+							<p>Once you have designed your part, open the .svg file on the laser workstation. Select
+								File < Print < Epilog Fusion Pro to launch the Epilog Dashboard. You should see your
+									part file appear on the screen, and if the laser is on, you will see the live video
+									feed from the cameras. </p>
+									<p>If the laser is not on yet, start by turning the exhaust up to 10 and then turn
+										the key on the laser control panel to turn the laser on. The Epilog laser will
+										run a
+										short configuration process, after which the digital screen will display "Idle"
+										in the
+										botton left corner. At this point, the laser is ready to begin operating.</p>
+									<p>Looking back at the Epilog Dashboard, you will see your operation(s) on the right
+										side of
+										the page. These operations will be split into Vector and Engrave if applicable.
+										If what
+										appears in these sections do not match what you anticipated, double check your
+										.svg
+										file.</p>
+									<p>For each operation, select the top right button to "Import Material Settings."
+										From here,
+										you will be able to select settings for the given material. This will
+										automatically
+										adjust your speed, power, and frequency/resolution for that material. If
+										necessary, you
+										can also adjust these values as you see fit.</p>
+									<p>If you have not done so already, focus the laser to the material. On the laser
+										touchscreen, press the joystick button to move the laser head over the material.
+										Then
+										press "Auto Focus." The laser bed will move to contact the material and
+										determine it's
+										thickness and thus, the appropriate bed height for proper focus. At this point,
+										you are
+										ready to start a job.</p>
+									<p>On the dashboard, align your part with where you wish to cut/engrave using the
+										live video
+										feed. When ready to print and all of your settings are finalized, press "Print"
+										to send
+										the job to the printer.</p>
+									<p>On the printer screen, you should now see your newly sent job in the queue. Tap
+										on the
+										job and press the Play button to begin.</p>
+									<p>IMPORTANT: Do not leave the laser running without supervision. If you need to
+										leave the
+										room, pause the print before leaving.</p>
+									<p>Once your print is complete, remove your part and any leftover stock, and enjoy
+										your
+										laser cut/engraved part!</p>
+									<p>To see the manual for the printer, click here:</p>
+									<p><a
+											href="https://www.epiloglaser.com/assets/downloads/manuals/fusionseries-manual-web.pdf">
+											Epilog Fusion Pro Manual</a></p>
+									<hr class="major" /> <!-- Visual Section end line -->
+
+									<h2>VI. Additional Information</h2>
+									<p>Note that the laser does not currently have a reservation system. The laser
+										currently
+										does not
+										get used to the point that this has been an issue, but if finding an available
+										time to
+										laser cut
+										becomes an issue, contact a shop manager to help resolve this.</p>
+									<p>In addition to the standard grid bed that is on the laser, users may prefer to
+										use the
+										engraving
+										bed, which is mostly solid and very flat. To change beds, users must remove the
+										current
+										bed and
+										place the new bed on the table, making sure that it sits properly on the laser.
+										When
+										done with a
+										bed, please replace the standard grid bed for other users. Do not use the
+										engraving bed
+										for
+										vector cutting operations as it can damage the bed and potentially release
+										unwanted
+										chemicals.
+									</p>
+									<p>Feel free to reach out to a shop manager if you have any further questions about
+										the
+										Epilog
+										Fusion Pro laser cutter.</p>
+									<hr class="major" /> <!-- Visual Section end line -->
 
 				</section>
 
